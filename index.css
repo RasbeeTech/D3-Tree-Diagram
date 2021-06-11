@@ -20,7 +20,7 @@ tspan {
     font-size: 12px;
 }
 .tile:hover {
-    fill: green;
+    fill: grey;
 }
 svg {
     padding-top: 20px;

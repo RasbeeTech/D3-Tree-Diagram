@@ -21,7 +21,15 @@ function treeDiagram(movieSales) {
 
     const colorScale = d3.scaleOrdinal()
                          .domain(genres)
-                         .range(d3.schemePaired);
+                         .range([
+                            "#1f77b4",
+                            "#ff7f0e",
+                            "#2ca02c",
+                            "#d62728",
+                            "#9467bd",
+                            "#8c564b",
+                            "#e377c2"
+                         ]);
 
     // Create and append SVG.
     const svg = d3.select('.visContainer')
