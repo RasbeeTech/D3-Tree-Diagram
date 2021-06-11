@@ -20,7 +20,7 @@ tspan {
     font-size: 12px;
 }
 .tile:hover {
-    fill: grey;
+    fill: lightgrey;
 }
 svg {
     padding-top: 20px;
@@ -35,7 +35,7 @@ svg {
     height: 100px;
     padding: 2px;
     font: 12px;
-    background: rgb(228, 252, 193);
+    background: lightgrey;
     box-shadow: 1px 1px 10px;
     border-radius: 2px;
     pointer-events: none;
